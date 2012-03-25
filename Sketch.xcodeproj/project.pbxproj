@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A447FD71519D2580047EB6C /* PKGeometryPasterLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A447FD61519D2580047EB6C /* PKGeometryPasterLibrary.m */; };
+		0A78D517150F3D4B008836F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A78D516150F3D4B008836F3 /* UIKit.framework */; };
+		0A78D519150F3D4B008836F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A78D518150F3D4B008836F3 /* Foundation.framework */; };
+		0A78D51B150F3D4B008836F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A78D51A150F3D4B008836F3 /* CoreGraphics.framework */; };
+		0A78D521150F3D4B008836F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A78D51F150F3D4B008836F3 /* InfoPlist.strings */; };
+		0A78D523150F3D4B008836F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78D522150F3D4B008836F3 /* main.m */; };
+		0A78D527150F3D4B008836F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78D526150F3D4B008836F3 /* AppDelegate.m */; };
+		0A78D533150F4541008836F3 /* DKDrawBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78D532150F4541008836F3 /* DKDrawBoard.m */; };
+		0A78D536150F5649008836F3 /* DKPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78D535150F5649008836F3 /* DKPen.m */; };
+		0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */; };
+		0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */; };
+		0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */; };
+		0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */; };
+		0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A447FD51519D2580047EB6C /* PKGeometryPasterLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryPasterLibrary.h; sourceTree = "<group>"; };
+		0A447FD61519D2580047EB6C /* PKGeometryPasterLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterLibrary.m; sourceTree = "<group>"; };
+		0A78D512150F3D4B008836F3 /* Sketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A78D516150F3D4B008836F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A78D518150F3D4B008836F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A78D51A150F3D4B008836F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A78D51E150F3D4B008836F3 /* Sketch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sketch-Info.plist"; sourceTree = "<group>"; };
+		0A78D520150F3D4B008836F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A78D522150F3D4B008836F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A78D524150F3D4B008836F3 /* Sketch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sketch-Prefix.pch"; sourceTree = "<group>"; };
+		0A78D525150F3D4B008836F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A78D526150F3D4B008836F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A78D531150F4541008836F3 /* DKDrawBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawBoard.h; sourceTree = "<group>"; };
+		0A78D532150F4541008836F3 /* DKDrawBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDrawBoard.m; sourceTree = "<group>"; };
+		0A78D534150F5649008836F3 /* DKPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKPen.h; sourceTree = "<group>"; };
+		0A78D535150F5649008836F3 /* DKPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKPen.m; sourceTree = "<group>"; };
+		0A8F86BF151DF3910078C33D /* PKGeometryImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryImageView.h; sourceTree = "<group>"; };
+		0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryImageView.m; sourceTree = "<group>"; };
+		0A9908C51519F62800EA7903 /* PKGeometryPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryPasterTemplate.h; sourceTree = "<group>"; };
+		0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterTemplate.m; sourceTree = "<group>"; };
+		0AE0DAA215108A9A002BD69F /* DKWaterColorPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWaterColorPen.h; sourceTree = "<group>"; };
+		0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWaterColorPen.m; sourceTree = "<group>"; };
+		0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawCanvas.h; sourceTree = "<group>"; };
+		0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDrawCanvas.m; sourceTree = "<group>"; };
+		0AFD1E7D1519FCA400278F3C /* PKGeometryPaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryPaster.h; sourceTree = "<group>"; };
+		0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPaster.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A78D50F150F3D4B008836F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A78D517150F3D4B008836F3 /* UIKit.framework in Frameworks */,
+				0A78D519150F3D4B008836F3 /* Foundation.framework in Frameworks */,
+				0A78D51B150F3D4B008836F3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A78D507150F3D4B008836F3 = {
+			isa = PBXGroup;
+			children = (
+				0A78D51C150F3D4B008836F3 /* Sketch */,
+				0A78D515150F3D4B008836F3 /* Frameworks */,
+				0A78D513150F3D4B008836F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A78D513150F3D4B008836F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A78D512150F3D4B008836F3 /* Sketch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A78D515150F3D4B008836F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A78D516150F3D4B008836F3 /* UIKit.framework */,
+				0A78D518150F3D4B008836F3 /* Foundation.framework */,
+				0A78D51A150F3D4B008836F3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A78D51C150F3D4B008836F3 /* Sketch */ = {
+			isa = PBXGroup;
+			children = (
+				0A78D525150F3D4B008836F3 /* AppDelegate.h */,
+				0A78D526150F3D4B008836F3 /* AppDelegate.m */,
+				0A9908C91519F63900EA7903 /* PasterKit */,
+				0A9908CB1519F65B00EA7903 /* DrawKit */,
+				0A78D51D150F3D4B008836F3 /* Supporting Files */,
+			);
+			path = Sketch;
+			sourceTree = "<group>";
+		};
+		0A78D51D150F3D4B008836F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A78D51E150F3D4B008836F3 /* Sketch-Info.plist */,
+				0A78D51F150F3D4B008836F3 /* InfoPlist.strings */,
+				0A78D522150F3D4B008836F3 /* main.m */,
+				0A78D524150F3D4B008836F3 /* Sketch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A9908C91519F63900EA7903 /* PasterKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A447FD51519D2580047EB6C /* PKGeometryPasterLibrary.h */,
+				0A447FD61519D2580047EB6C /* PKGeometryPasterLibrary.m */,
+				0A8F86BF151DF3910078C33D /* PKGeometryImageView.h */,
+				0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */,
+				0A9908C51519F62800EA7903 /* PKGeometryPasterTemplate.h */,
+				0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */,
+				0AFD1E7D1519FCA400278F3C /* PKGeometryPaster.h */,
+				0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */,
+			);
+			name = PasterKit;
+			sourceTree = "<group>";
+		};
+		0A9908CB1519F65B00EA7903 /* DrawKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A78D531150F4541008836F3 /* DKDrawBoard.h */,
+				0A78D532150F4541008836F3 /* DKDrawBoard.m */,
+				0A78D534150F5649008836F3 /* DKPen.h */,
+				0A78D535150F5649008836F3 /* DKPen.m */,
+				0AE0DAA215108A9A002BD69F /* DKWaterColorPen.h */,
+				0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */,
+				0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */,
+				0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */,
+			);
+			name = DrawKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A78D511150F3D4B008836F3 /* Sketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A78D52A150F3D4B008836F3 /* Build configuration list for PBXNativeTarget "Sketch" */;
+			buildPhases = (
+				0A78D50E150F3D4B008836F3 /* Sources */,
+				0A78D50F150F3D4B008836F3 /* Frameworks */,
+				0A78D510150F3D4B008836F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sketch;
+			productName = Sketch;
+			productReference = 0A78D512150F3D4B008836F3 /* Sketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A78D509150F3D4B008836F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0A78D50C150F3D4B008836F3 /* Build configuration list for PBXProject "Sketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A78D507150F3D4B008836F3;
+			productRefGroup = 0A78D513150F3D4B008836F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A78D511150F3D4B008836F3 /* Sketch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A78D510150F3D4B008836F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A78D521150F3D4B008836F3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A78D50E150F3D4B008836F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A78D523150F3D4B008836F3 /* main.m in Sources */,
+				0A78D527150F3D4B008836F3 /* AppDelegate.m in Sources */,
+				0A78D533150F4541008836F3 /* DKDrawBoard.m in Sources */,
+				0A78D536150F5649008836F3 /* DKPen.m in Sources */,
+				0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */,
+				0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */,
+				0A447FD71519D2580047EB6C /* PKGeometryPasterLibrary.m in Sources */,
+				0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */,
+				0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */,
+				0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A78D51F150F3D4B008836F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A78D520150F3D4B008836F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A78D528150F3D4B008836F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A78D529150F3D4B008836F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A78D52B150F3D4B008836F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sketch/Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Sketch/Sketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A78D52C150F3D4B008836F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sketch/Sketch-Prefix.pch";
+				INFOPLIST_FILE = "Sketch/Sketch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A78D50C150F3D4B008836F3 /* Build configuration list for PBXProject "Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A78D528150F3D4B008836F3 /* Debug */,
+				0A78D529150F3D4B008836F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A78D52A150F3D4B008836F3 /* Build configuration list for PBXNativeTarget "Sketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A78D52B150F3D4B008836F3 /* Debug */,
+				0A78D52C150F3D4B008836F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A78D509150F3D4B008836F3 /* Project object */;
+}

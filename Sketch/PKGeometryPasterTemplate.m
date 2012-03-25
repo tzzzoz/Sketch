@@ -1,0 +1,33 @@
+//
+//  PKGeometryPasterTemplate.m
+//  Sketch
+//
+//  Created by 付 乙荷 on 12-3-21.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//
+
+#import "PKGeometryPasterTemplate.h"
+
+@implementation PKGeometryPasterTemplate
+
+@synthesize geometryImageView;
+
+-(id)initWithContentsOfFile:(NSString *)filePath {
+    self = [super init];
+    
+    //判断父类初始化成功 且 文件路径有效
+    if (self && [[geometryImageView image] initWithContentsOfFile:filePath]) {
+        
+        isCreated = FALSE;   //几何贴纸还没有被创建
+        
+        //插入初始化相关代码
+        
+        return self;
+    } else
+        return nil;         //初始化失败，可能文件路径无效，处理异常
+}
+
+
+
+
+@end
