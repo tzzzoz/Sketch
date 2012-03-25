@@ -15,9 +15,9 @@
 -(id)initWithGeometryImageView:(PKGeometryImageView *)imageView colorOfPaster:(UIColor *)color {
     self = [super init];
     if (self && color) {
-        geometryImageView = imageView;
-        colorOfPaster = color;
-        isCreated = TRUE;
+        self.geometryImageView = imageView;
+        self.colorOfPaster = color;
+        self.isCreated = TRUE;
         return self;
     } else {
         

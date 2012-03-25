@@ -11,14 +11,14 @@
 @implementation PKGeometryPasterTemplate
 
 @synthesize geometryImageView;
-
+@synthesize isCreated;
 -(id)initWithContentsOfFile:(NSString *)filePath {
     self = [super init];
     
     //判断父类初始化成功 且 文件路径有效
-    if (self && [[geometryImageView image] initWithContentsOfFile:filePath]) {
+    if (self && [[self.geometryImageView image] initWithContentsOfFile:filePath]) {
         
-        isCreated = FALSE;   //几何贴纸还没有被创建
+        self.isCreated = FALSE;   //几何贴纸还没有被创建
         
         //插入初始化相关代码
         
