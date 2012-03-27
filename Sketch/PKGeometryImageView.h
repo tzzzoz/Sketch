@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+//这个类提供了编辑贴纸相关操作所需要的数据
 typedef enum
 {
     Translation = 0,

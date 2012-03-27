@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PKGeometryPasterLibrary : NSObject
-{
+@interface PKGeometryPasterLibrary : NSObject {
     NSMutableArray *geometryPasterTemplates;
     NSMutableArray *geometryPasters;
 }

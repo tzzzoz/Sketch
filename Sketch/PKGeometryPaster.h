@@ -8,11 +8,16 @@
 #import "PKGeometryPasterTemplate.h"
 #import "PKGeometryImageView.h"
 
-@interface PKGeometryPaster : PKGeometryPasterTemplate <NSCoding> {
-     UIColor *colorOfPaster;
+//实现了NSCoding的协议，该类可以Archive到本地
+@interface PKGeometryPaster : NSObject <NSCoding> {
+    PKGeometryImageView* geometryImageView;     //这个view中保存了编辑等操作需要的数据
+    UIColor *colorOfPaster;
 }
 
--(id)initWithGeometryImageView:(PKGeometryImageView*) imageView colorOfPaster:(UIColor*) color;
+//几何贴纸的创建依赖其对应的几何贴纸模板，存在依赖关系
+//使用相应的几何贴纸模板来初始化几何贴纸
+-(id)initRelevantGeometryPasterTemplate:(PKGeometryPasterTemplate*) geometryPasterTemplate colorOfPaster:(UIColor*) color;
 
+@property (retain, nonatomic) PKGeometryImageView* geometryImageView;
 @property (retain, nonatomic) UIColor* colorOfPaster;
 @end
