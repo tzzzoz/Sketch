@@ -12,12 +12,11 @@
 
 @synthesize geometryImageView;
 @synthesize isCreated;
--(id)initWithContentsOfFile:(NSString *)filePath {
-    self = [super init];
-    
+-(id)initWithContentsOfFile:(NSString *)filePath {    
     //判断父类初始化成功 且 文件路径有效
-    if (self && [[self.geometryImageView image] initWithContentsOfFile:filePath]) {
-        
+    if (self = [super init]) {
+        geometryImageView = [[PKGeometryImageView alloc] init];
+        geometryImageView.image = [UIImage imageNamed:filePath];
         self.isCreated = FALSE;   //几何贴纸还没有被创建
         
         //插入初始化相关代码
