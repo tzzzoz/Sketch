@@ -8,6 +8,55 @@
 
 #import <UIKit/UIKit.h>
 
+typedef enum
+{
+    Translation = 0,
+    Scale       = 1,
+    Rotation    = 2,
+    Nothing     = 3
+}OperationType;
+
 @interface PKGeometryImageView : UIImageView
+{
+    //贴纸是否被选中
+    BOOL isGeometrySelected;
+    
+    //关键操作点
+    CGPoint leftTopPoint;
+    CGPoint rightTopPoint; 
+    CGPoint leftBottomPoint; 
+    CGPoint rightBottomPoint;
+    CGPoint rotationPoint;
+    CGPoint centerPoint;
+    
+    CGAffineTransform geometryTransfrom;
+    OperationType operationType;
+    
+    //关键操作点原来的点
+    CGPoint leftTopPointOriginal;
+    CGPoint rightTopPointOriginal;
+    CGPoint leftBottomPointOriginal;
+    CGPoint rigthBottomPointOriginal;
+    CGPoint centerPointOriginal;
+}
+
+@property (readwrite) BOOL isGeometrySelected;
+@property (readwrite) CGPoint leftTopPoint;
+@property (readwrite) CGPoint rightTopPoint;
+@property (readwrite) CGPoint leftBottomPoint;
+@property (readwrite) CGPoint rightBottomPoint;
+@property (readwrite) CGPoint rotationPoint;
+@property (readwrite) CGPoint centerPoint;
+@property (readwrite) CGPoint leftTopPointOriginal;
+@property (readwrite) CGPoint rightTopPointOriginal;
+@property (readwrite) CGPoint leftBottomPointOriginal;
+@property (readwrite) CGPoint rigthBottomPointOriginal;
+@property (readwrite) CGPoint centerPointOriginal;
+@property (readwrite) CGAffineTransform geometryTransfrom;
+@property (readwrite) OperationType operationType;
+
+-(void)drawFrameWithContext:(CGContextRef)context;
+-(void)calulateFourCorners;
+-(void)initFourCorners;
 
 @end

@@ -10,7 +10,7 @@
 #import "PKGeometryImageView.h"
 
 @interface PKGeometryPasterTemplate : NSObject {
-    PKGeometryImageView *geometryImageView;         //保存几何贴纸的素材
+    UIImageView *geometryImageView;         //保存几何贴纸的素材
     BOOL isCreated;
 }
 
