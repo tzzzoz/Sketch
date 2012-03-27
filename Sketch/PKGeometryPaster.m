@@ -10,14 +10,14 @@
 
 @implementation PKGeometryPaster
 
+@synthesize geometryImageView;
 @synthesize colorOfPaster;
 
--(id)initWithGeometryImageView:(PKGeometryImageView *)imageView colorOfPaster:(UIColor *)color {
+-(id)initRelevantGeometryPasterTemplate:(PKGeometryPasterTemplate *)geometryPasterTemplate colorOfPaster:(UIColor *)color {    
     self = [super init];
     if (self && color) {
-        self.geometryImageView = imageView;
+        self.geometryImageView.image = geometryPasterTemplate.imageView.image;
         self.colorOfPaster = color;
-        self.isCreated = TRUE;
         return self;
     } else {
         
@@ -31,7 +31,6 @@
 -(id)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super init]) {
         self.geometryImageView = [aDecoder decodeObjectForKey:@"geometryImageView"];
-        self.isCreated = [aDecoder decodeBoolForKey:@"isCreated"];
         self.colorOfPaster = [aDecoder decodeObjectForKey:@"colorOfPaster"];
     }
     return self;
@@ -39,7 +38,6 @@
 
 -(void)encodeWithCoder:(NSCoder *)aCoder {
     [aCoder encodeObject:geometryImageView forKey:@"geometryImageView"];
-    [aCoder encodeBool:isCreated forKey:@"isCreated"];
     [aCoder encodeObject:colorOfPaster forKey:@"colorOfPaster"];
 }
 @end

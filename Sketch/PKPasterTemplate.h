@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PKPasterTemplate : NSObject
-{
+@interface PKPasterTemplate : NSObject {
     
 }
 @end
