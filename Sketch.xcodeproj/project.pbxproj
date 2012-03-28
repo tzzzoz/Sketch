@@ -60,6 +60,7 @@
 		0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPaster.m; sourceTree = "<group>"; };
 		A38698ED1521A91D0073AA94 /* controlPointRotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointRotation.png; sourceTree = "<group>"; };
 		A38698EE1521A91D0073AA94 /* controlPointScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointScale.png; sourceTree = "<group>"; };
+		A38698FF1521F1B00073AA94 /* EnumClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,9 +107,8 @@
 		0A78D51C150F3D4B008836F3 /* Sketch */ = {
 			isa = PBXGroup;
 			children = (
+				A38698FF1521F1B00073AA94 /* EnumClass.h */,
 				A38698EC1521A8DA0073AA94 /* PictureResource */,
-				0A78D525150F3D4B008836F3 /* AppDelegate.h */,
-				0A78D526150F3D4B008836F3 /* AppDelegate.m */,
 				0A9908C91519F63900EA7903 /* PasterKit */,
 				0A9908CB1519F65B00EA7903 /* DrawKit */,
 				0A78D51D150F3D4B008836F3 /* Supporting Files */,
@@ -119,6 +119,8 @@
 		0A78D51D150F3D4B008836F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0A78D525150F3D4B008836F3 /* AppDelegate.h */,
+				0A78D526150F3D4B008836F3 /* AppDelegate.m */,
 				0A78D51E150F3D4B008836F3 /* Sketch-Info.plist */,
 				0A78D51F150F3D4B008836F3 /* InfoPlist.strings */,
 				0A78D522150F3D4B008836F3 /* main.m */,
