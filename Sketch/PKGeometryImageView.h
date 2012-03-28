@@ -11,7 +11,7 @@
 
 //这个类提供了编辑贴纸相关操作所需要的数据
 
-@interface PKGeometryImageView : UIImageView
+@interface PKGeometryImageView : UIImageView <NSCoding>
 {
     //贴纸是否被选中
     BOOL isGeometrySelected;

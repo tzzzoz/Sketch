@@ -20,7 +20,7 @@
 		0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */; };
 		0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */; };
 		0AC92DFD1522ED8F000D1ED4 /* DataOfPasterTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */; };
-		0AC92E431523379E000D1ED4 /* SWPasterTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC92E421523379E000D1ED4 /* SWPasterTemplateLibrary.m */; };
+		0AC92E56152376D4000D1ED4 /* PKPasterTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC92E55152376D4000D1ED4 /* PKPasterTemplateLibrary.m */; };
 		0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */; };
 		0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */; };
 		0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */; };
@@ -52,9 +52,9 @@
 		0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterTemplate.m; sourceTree = "<group>"; };
 		0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterTemplate.h; sourceTree = "<group>"; };
 		0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterTemplate.m; sourceTree = "<group>"; };
-		0AC92E411523379E000D1ED4 /* SWPasterTemplateLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPasterTemplateLibrary.h; sourceTree = "<group>"; };
-		0AC92E421523379E000D1ED4 /* SWPasterTemplateLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPasterTemplateLibrary.m; sourceTree = "<group>"; };
 		0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataOfPasterTemplates.plist; sourceTree = "<group>"; };
+		0AC92E54152376D4000D1ED4 /* PKPasterTemplateLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterTemplateLibrary.h; sourceTree = "<group>"; };
+		0AC92E55152376D4000D1ED4 /* PKPasterTemplateLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterTemplateLibrary.m; sourceTree = "<group>"; };
 		0AE0DAA215108A9A002BD69F /* DKWaterColorPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWaterColorPen.h; sourceTree = "<group>"; };
 		0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWaterColorPen.m; sourceTree = "<group>"; };
 		0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawCanvas.h; sourceTree = "<group>"; };
@@ -149,6 +149,8 @@
 				0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */,
 				0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */,
 				0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */,
+				0AC92E54152376D4000D1ED4 /* PKPasterTemplateLibrary.h */,
+				0AC92E55152376D4000D1ED4 /* PKPasterTemplateLibrary.m */,
 			);
 			name = PasterKit;
 			sourceTree = "<group>";
@@ -252,6 +254,7 @@
 				0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */,
 				0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */,
 				0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */,
+				0AC92E56152376D4000D1ED4 /* PKPasterTemplateLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

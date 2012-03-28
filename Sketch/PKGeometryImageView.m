@@ -117,4 +117,42 @@
     [pointImage drawAtPoint:CGPointMake(rotationPoint.x-9, rotationPoint.y-9)];    
 }
 
+-(id)initWithCoder:(NSCoder *)aDecoder {
+    if (self = [super init]) {
+        self.leftTopPoint = [aDecoder decodeCGPointForKey:@"leftTopPoint"];
+        self.rightTopPoint = [aDecoder decodeCGPointForKey:@"rightTopPoint"];
+        self.leftBottomPoint = [aDecoder decodeCGPointForKey:@"leftBottomPoint"];
+        self.rightBottomPoint = [aDecoder decodeCGPointForKey:@"rightBottomPoint"];
+        self.rotationPoint = [aDecoder decodeCGPointForKey:@"rotationPoint"];
+        self.centerPoint = [aDecoder decodeCGPointForKey:@"centerPoint"];
+        
+        self.geometryTransfrom = [aDecoder decodeCGAffineTransformForKey:@"geometryTransfrom"];
+        self.operationType = [aDecoder decodeIntForKey:@"operationType"];
+        
+        self.leftTopPointOriginal = [aDecoder decodeCGPointForKey:@"leftTopPointOriginal"];
+        self.rightTopPointOriginal = [aDecoder decodeCGPointForKey:@"rightTopPointOriginal"];
+        self.leftBottomPointOriginal = [aDecoder decodeCGPointForKey:@"leftBottomPointOriginal"];
+        self.rigthBottomPointOriginal = [aDecoder decodeCGPointForKey:@"rigthBottomPointOriginal"];
+        self.centerPointOriginal = [aDecoder decodeCGPointForKey:@"centerPointOriginal"];
+    }
+    return self;
+}
+
+-(void)encodeWithCoder:(NSCoder *)aCoder {
+    [aCoder encodeCGPoint:leftTopPoint forKey:@"leftTopPoint"];
+    [aCoder encodeCGPoint:rightTopPoint forKey:@"rightTopPoint"];
+    [aCoder encodeCGPoint:leftBottomPoint forKey:@"leftBottomPoint"];
+    [aCoder encodeCGPoint:rightBottomPoint forKey:@"rightBottomPoint"];
+    [aCoder encodeCGPoint:rotationPoint forKey:@"rotationPoint"];
+    [aCoder encodeCGPoint:centerPoint forKey:@"centerPoint"];
+    
+    [aCoder encodeCGAffineTransform:geometryTransfrom forKey:@"geometryTransfrom"];
+    [aCoder encodeInt:operationType forKey:@"operationType"];
+    
+    [aCoder encodeCGPoint:leftTopPointOriginal forKey:@"leftTopPointOriginal"];
+    [aCoder encodeCGPoint:rightTopPointOriginal forKey:@"rightTopPointOriginal"];
+    [aCoder encodeCGPoint:leftBottomPointOriginal forKey:@"leftBottomPointOriginal"];
+    [aCoder encodeCGPoint:rigthBottomPointOriginal forKey:@"rigthBottomPointOriginal"];
+    [aCoder encodeCGPoint:centerPointOriginal forKey:@"centerPointOriginal"];
+}
 @end
