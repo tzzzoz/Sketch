@@ -19,10 +19,10 @@
 		0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */; };
 		0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */; };
 		0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */; };
-		0ABC5E3C1521A3640060134E /* PKPasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5E3B1521A3640060134E /* PKPasterView.m */; };
 		0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */; };
 		0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */; };
 		0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */; };
+		A304F7FA15230BB4009757AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304F7F915230BB4009757AE /* OpenGLES.framework */; };
 		A38698EF1521A91D0073AA94 /* controlPointRotation.png in Resources */ = {isa = PBXBuildFile; fileRef = A38698ED1521A91D0073AA94 /* controlPointRotation.png */; };
 		A38698F01521A91D0073AA94 /* controlPointScale.png in Resources */ = {isa = PBXBuildFile; fileRef = A38698EE1521A91D0073AA94 /* controlPointScale.png */; };
 /* End PBXBuildFile section */
@@ -50,14 +50,13 @@
 		0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterTemplate.m; sourceTree = "<group>"; };
 		0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterTemplate.h; sourceTree = "<group>"; };
 		0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterTemplate.m; sourceTree = "<group>"; };
-		0ABC5E3A1521A3640060134E /* PKPasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterView.h; sourceTree = "<group>"; };
-		0ABC5E3B1521A3640060134E /* PKPasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterView.m; sourceTree = "<group>"; };
 		0AE0DAA215108A9A002BD69F /* DKWaterColorPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWaterColorPen.h; sourceTree = "<group>"; };
 		0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWaterColorPen.m; sourceTree = "<group>"; };
 		0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawCanvas.h; sourceTree = "<group>"; };
 		0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDrawCanvas.m; sourceTree = "<group>"; };
 		0AFD1E7D1519FCA400278F3C /* PKGeometryPaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryPaster.h; sourceTree = "<group>"; };
 		0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPaster.m; sourceTree = "<group>"; };
+		A304F7F915230BB4009757AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		A38698ED1521A91D0073AA94 /* controlPointRotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointRotation.png; sourceTree = "<group>"; };
 		A38698EE1521A91D0073AA94 /* controlPointScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointScale.png; sourceTree = "<group>"; };
 		A38698FF1521F1B00073AA94 /* EnumClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumClass.h; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A304F7FA15230BB4009757AE /* OpenGLES.framework in Frameworks */,
 				0A78D517150F3D4B008836F3 /* UIKit.framework in Frameworks */,
 				0A78D519150F3D4B008836F3 /* Foundation.framework in Frameworks */,
 				0A78D51B150F3D4B008836F3 /* CoreGraphics.framework in Frameworks */,
@@ -97,6 +97,7 @@
 		0A78D515150F3D4B008836F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A304F7F915230BB4009757AE /* OpenGLES.framework */,
 				0A78D516150F3D4B008836F3 /* UIKit.framework */,
 				0A78D518150F3D4B008836F3 /* Foundation.framework */,
 				0A78D51A150F3D4B008836F3 /* CoreGraphics.framework */,
@@ -142,8 +143,6 @@
 				0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */,
 				0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */,
 				0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */,
-				0ABC5E3A1521A3640060134E /* PKPasterView.h */,
-				0ABC5E3B1521A3640060134E /* PKPasterView.m */,
 			);
 			name = PasterKit;
 			sourceTree = "<group>";
@@ -246,7 +245,6 @@
 				0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */,
 				0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */,
 				0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */,
-				0ABC5E3C1521A3640060134E /* PKPasterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
