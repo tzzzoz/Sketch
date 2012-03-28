@@ -7,15 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EnumClass.h"
 
 //这个类提供了编辑贴纸相关操作所需要的数据
-typedef enum
-{
-    Translation = 0,
-    Scale       = 1,
-    Rotation    = 2,
-    Nothing     = 3
-}OperationType;
 
 @interface PKGeometryImageView : UIImageView
 {

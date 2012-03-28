@@ -10,34 +10,62 @@
 
 @implementation PKGeometryPaster
 
-@synthesize geometryImageView;
-@synthesize colorOfPaster;
+@synthesize geoPasterImageView;
+@synthesize geoPasterColor;
+@synthesize geoPasterType;
+@synthesize indexOfTemplateList;
 
--(id)initRelevantGeometryPasterTemplate:(PKGeometryPasterTemplate *)geometryPasterTemplate colorOfPaster:(UIColor *)color {    
+-(id)initWithGeometryPasterTemplate:(PKGeometryPasterTemplate *)geometryPasterTemplate Color:(UIColor *)color Type:(GeometryType)type
+{    
     self = [super init];
-    if (self && color) {
-        self.geometryImageView.image = geometryPasterTemplate.imageView.image;
-        self.colorOfPaster = color;
+    if (self && color) 
+    {
+        self.geoPasterImageView = [[PKGeometryImageView alloc]initWithImage:geometryPasterTemplate.geoTemplateImageView.image];
+        self.geoPasterColor = color;
+        self.geoPasterType  = type;
         return self;
-    } else {
-        
+    } 
+    else 
+    {
         //参数color为空，异常处理
         return nil;
     }
 }
 
+-(id)initWithGeometryImageView:(PKGeometryImageView *)imageView Color:(UIColor *)color Type:(GeometryType)type
+{
+    self = [super init];
+    if(self && color && imageView)
+    {
+        self.geoPasterImageView = imageView;
+        self.geoPasterColor = color;
+        self.geoPasterType  = type;
+        return self;
+    }
+    else
+    {
+        //参数color为空，异常处理
+        return nil; 
+    }
+}
+
 
 //使用NSCoder对几何贴纸进行归档
--(id)initWithCoder:(NSCoder *)aDecoder {
-    if (self = [super init]) {
-        self.geometryImageView = [aDecoder decodeObjectForKey:@"geometryImageView"];
-        self.colorOfPaster = [aDecoder decodeObjectForKey:@"colorOfPaster"];
+-(id)initWithCoder:(NSCoder *)aDecoder 
+{
+    if (self = [super init]) 
+    {
+        self.geoPasterImageView = [aDecoder decodeObjectForKey:@"geoPasterImageView"];
+        self.geoPasterColor = [aDecoder decodeObjectForKey:@"geoPasterColor"];
+        self.indexOfTemplateList = [aDecoder decodeIntForKey:@"indexOfTemplateList"];
     }
     return self;
 }
 
--(void)encodeWithCoder:(NSCoder *)aCoder {
-    [aCoder encodeObject:geometryImageView forKey:@"geometryImageView"];
-    [aCoder encodeObject:colorOfPaster forKey:@"colorOfPaster"];
+-(void)encodeWithCoder:(NSCoder *)aCoder 
+{
+    [aCoder encodeObject:geoPasterImageView forKey:@"geoPasterImageView"];
+    [aCoder encodeObject:geoPasterColor forKey:@"geoPasterColor"];
+    [aCoder encodeBool:indexOfTemplateList forKey:@"indexOfTemplateList"];
 }
 @end

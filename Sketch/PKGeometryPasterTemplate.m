@@ -10,34 +10,57 @@
 
 @implementation PKGeometryPasterTemplate
 
-@synthesize imageView;
-@synthesize isCreated;
--(id)initWithContentsOfFile:(NSString *)filePath {    
+@synthesize geoTemplateImageView;
+@synthesize geoTemplateColor;
+@synthesize geoTemplateType;
+@synthesize isModified;
+
+-(id)initWithFileName:(NSString *)fileName Color:(UIColor *)color Type:(GeometryType)type
+{    
     //判断父类初始化成功 且 文件路径有效
-    if (self = [super init]) {
-        imageView = [[PKGeometryImageView alloc] init];
-        imageView.image = [UIImage imageNamed:filePath];
-        self.isCreated = FALSE;   //几何贴纸还没有被创建
-        
-        //插入初始化相关代码
-        
+    if (self = [super init]) 
+    {
+        self.geoTemplateImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:fileName]];
+        self.geoTemplateColor = color;
+        self.geoTemplateType  = type;
         return self;
-    } else
+    } 
+    else
         return nil;         //初始化失败，可能文件路径无效，处理异常
 }
 
+-(id)initWithImageView:(UIImageView *)imageView Color:(UIColor *)color Type:(GeometryType)type
+{
+    if(self = [super init])
+    {
+        self.geoTemplateImageView = imageView;
+        self.geoTemplateColor = color;
+        self.geoTemplateType  = type;
+        return self;
+    }
+    else
+        return nil;
+}
+
 //使用NSCoder对几何贴纸模板进行归档
--(id)initWithCoder:(NSCoder *)aDecoder {
-    if (self = [super init]) {
-        self.imageView = [aDecoder decodeObjectForKey:@"imageView"];
-        self.isCreated = [aDecoder decodeBoolForKey:@"isCreated"];
+-(id)initWithCoder:(NSCoder *)aDecoder 
+{
+    if (self = [super init]) 
+    {
+        self.geoTemplateImageView = [aDecoder decodeObjectForKey:@"geoTemplateImageView"];
+        self.geoTemplateColor = [aDecoder decodeObjectForKey:@"geoTemplateColor"];
+        self.geoTemplateType  = [aDecoder decodeIntForKey:@"geoTemplateType"];
+        self.isModified = [aDecoder decodeBoolForKey:@"isModified"];
     }
     return self;
 }
 
--(void)encodeWithCoder:(NSCoder *)aCoder {
-    [aCoder encodeObject:imageView forKey:@"imageView"];
-    [aCoder encodeBool:isCreated forKey:@"isCreated"];
+-(void)encodeWithCoder:(NSCoder *)aCoder 
+{
+    [aCoder encodeObject:geoTemplateImageView forKey:@"geoTemplateImageView"];
+    [aCoder encodeObject:geoTemplateColor forKey:@"geoTemplateColor"];
+    [aCoder encodeInt:geoTemplateType forKey:@"geoTemplateType"];
+    [aCoder encodeBool:isModified forKey:@"isModified"];
 }
 
 @end
