@@ -19,14 +19,8 @@
 		0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */; };
 		0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */; };
 		0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */; };
-<<<<<<< HEAD
-=======
 		0AC92DFD1522ED8F000D1ED4 /* DataOfPasterTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */; };
-<<<<<<< HEAD
 		0AC92E431523379E000D1ED4 /* SWPasterTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC92E421523379E000D1ED4 /* SWPasterTemplateLibrary.m */; };
-=======
->>>>>>> e26c27dcd4e8aa7bcc592ba5a8c1e919c200ba84
->>>>>>> a6727d8d6e270b4dc4eaf6e184b2a6692d5c4970
 		0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */; };
 		0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */; };
 		0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */; };
@@ -58,16 +52,9 @@
 		0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterTemplate.m; sourceTree = "<group>"; };
 		0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterTemplate.h; sourceTree = "<group>"; };
 		0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterTemplate.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DataOfPasterTemplates.plist; path = Sketch/DataOfPasterTemplates.plist; sourceTree = SOURCE_ROOT; };
 		0AC92E411523379E000D1ED4 /* SWPasterTemplateLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPasterTemplateLibrary.h; sourceTree = "<group>"; };
 		0AC92E421523379E000D1ED4 /* SWPasterTemplateLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPasterTemplateLibrary.m; sourceTree = "<group>"; };
-=======
-<<<<<<< HEAD
-=======
 		0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataOfPasterTemplates.plist; sourceTree = "<group>"; };
->>>>>>> e26c27dcd4e8aa7bcc592ba5a8c1e919c200ba84
->>>>>>> a6727d8d6e270b4dc4eaf6e184b2a6692d5c4970
 		0AE0DAA215108A9A002BD69F /* DKWaterColorPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWaterColorPen.h; sourceTree = "<group>"; };
 		0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWaterColorPen.m; sourceTree = "<group>"; };
 		0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawCanvas.h; sourceTree = "<group>"; };
@@ -128,7 +115,7 @@
 			children = (
 				A38698FF1521F1B00073AA94 /* EnumClass.h */,
 				A38698EC1521A8DA0073AA94 /* PictureResource */,
-				0A9908C91519F63900EA7903 /* SWPasterKit */,
+				0A9908C91519F63900EA7903 /* PasterKit */,
 				0A9908CB1519F65B00EA7903 /* DrawKit */,
 				0A78D51D150F3D4B008836F3 /* Supporting Files */,
 			);
@@ -149,23 +136,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0A9908C91519F63900EA7903 /* SWPasterKit */ = {
+		0A9908C91519F63900EA7903 /* PasterKit */ = {
 			isa = PBXGroup;
 			children = (
 				0A447FD51519D2580047EB6C /* PKGeometryPasterLibrary.h */,
 				0A447FD61519D2580047EB6C /* PKGeometryPasterLibrary.m */,
-				0A8F86BF151DF3910078C33D /* PKGeometryImageView.h */,
-				0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */,
 				0A9908C51519F62800EA7903 /* PKGeometryPasterTemplate.h */,
 				0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */,
 				0AFD1E7D1519FCA400278F3C /* PKGeometryPaster.h */,
 				0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */,
-				0AC92E411523379E000D1ED4 /* SWPasterTemplateLibrary.h */,
-				0AC92E421523379E000D1ED4 /* SWPasterTemplateLibrary.m */,
+				0A8F86BF151DF3910078C33D /* PKGeometryImageView.h */,
+				0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */,
 				0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */,
 				0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */,
 			);
-			name = SWPasterKit;
+			name = PasterKit;
 			sourceTree = "<group>";
 		};
 		0A9908CB1519F65B00EA7903 /* DrawKit */ = {
@@ -267,7 +252,6 @@
 				0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */,
 				0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */,
 				0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */,
-				0AC92E431523379E000D1ED4 /* SWPasterTemplateLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
