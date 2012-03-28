@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface PKPasterTemplate : NSObject {
-    
+    NSMutableArray *geoPasterTemplates;
     UIView *pasterView;
 }
+
 @end
