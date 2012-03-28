@@ -19,6 +19,10 @@
 		0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */; };
 		0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */; };
 		0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */; };
+<<<<<<< HEAD
+=======
+		0AC92DFD1522ED8F000D1ED4 /* DataOfPasterTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */; };
+>>>>>>> e26c27dcd4e8aa7bcc592ba5a8c1e919c200ba84
 		0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */; };
 		0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */; };
 		0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */; };
@@ -50,6 +54,10 @@
 		0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterTemplate.m; sourceTree = "<group>"; };
 		0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterTemplate.h; sourceTree = "<group>"; };
 		0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterTemplate.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataOfPasterTemplates.plist; sourceTree = "<group>"; };
+>>>>>>> e26c27dcd4e8aa7bcc592ba5a8c1e919c200ba84
 		0AE0DAA215108A9A002BD69F /* DKWaterColorPen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKWaterColorPen.h; sourceTree = "<group>"; };
 		0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWaterColorPen.m; sourceTree = "<group>"; };
 		0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawCanvas.h; sourceTree = "<group>"; };
@@ -123,6 +131,7 @@
 				0A78D525150F3D4B008836F3 /* AppDelegate.h */,
 				0A78D526150F3D4B008836F3 /* AppDelegate.m */,
 				0A78D51E150F3D4B008836F3 /* Sketch-Info.plist */,
+				0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */,
 				0A78D51F150F3D4B008836F3 /* InfoPlist.strings */,
 				0A78D522150F3D4B008836F3 /* main.m */,
 				0A78D524150F3D4B008836F3 /* Sketch-Prefix.pch */,
@@ -224,6 +233,7 @@
 				0A78D521150F3D4B008836F3 /* InfoPlist.strings in Resources */,
 				A38698EF1521A91D0073AA94 /* controlPointRotation.png in Resources */,
 				A38698F01521A91D0073AA94 /* controlPointScale.png in Resources */,
+				0AC92DFD1522ED8F000D1ED4 /* DataOfPasterTemplates.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +325,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sketch/Sketch-Prefix.pch";
 				INFOPLIST_FILE = "Sketch/Sketch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -327,8 +338,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sketch/Sketch-Prefix.pch";
 				INFOPLIST_FILE = "Sketch/Sketch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

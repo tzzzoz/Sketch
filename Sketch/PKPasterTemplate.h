@@ -10,5 +10,6 @@
 
 @interface PKPasterTemplate : NSObject {
     
+    UIView *pasterView;
 }
 @end
