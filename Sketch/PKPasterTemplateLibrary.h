@@ -7,9 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PKPasterTemplate.h"
 
 @interface PKPasterTemplateLibrary : NSObject {
-    
+    NSMutableArray *pasterTemplates;
 }
+
+-(id)initWithDataOfPlist;
+
+@property (retain, nonatomic) NSMutableArray *pasterTemplates;
 
 @end

@@ -15,7 +15,7 @@
 @synthesize geoTemplateType;
 @synthesize isModified;
 
--(id)initWithFileName:(NSString *)fileName Color:(UIColor *)color Type:(GeometryType)type
+-(id)initWithFileName:(NSString *)fileName Color:(UIColor *)color Type:(GeometryType)type Rect:(CGRect)rect
 {    
     //判断父类初始化成功 且 文件路径有效
     if (self = [super init]) 
