@@ -9,14 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "PKGeometryPasterTemplate.h"
 
-@interface PKPasterTemplate : NSObject {
+@interface PKPasterTemplate : NSObject <NSCoding>{
     NSMutableArray *geoPasterTemplates;
-    UIView *pasterView;
+    UIImageView *pasterView;
 }
 
--(id)init;
+-(id)initWithFileName:(NSString *)fileName GeoPasterTemplates:(NSMutableArray *)array;
 
 @property (retain, nonatomic) NSMutableArray *geoPasterTemplates;
-@property (retain, nonatomic) UIView *pasterView;
+@property (retain, nonatomic) UIImageView *pasterView;
 
 @end
