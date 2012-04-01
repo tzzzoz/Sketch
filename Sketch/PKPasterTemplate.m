@@ -12,12 +12,14 @@
 
 @synthesize geoPasterTemplates;
 @synthesize pasterView;
+@synthesize isModified;
 
 -(id)initWithFileName:(NSString *)fileName GeoPasterTemplates:(NSMutableArray *)array {
     if (self = [super init]) {
         self.geoPasterTemplates = [[NSMutableArray alloc] init];
         self.pasterView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:fileName]];
-
+        self.isModified = FALSE;
+        
         geoPasterTemplates = array;
         //把几何贴纸模板的geoTemplateImageView添加到贴纸模板的父视图pasterView中
         for (PKGeometryPasterTemplate *geoPasterTemplate in array) {

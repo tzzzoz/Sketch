@@ -23,10 +23,24 @@
 		0AC92E56152376D4000D1ED4 /* PKPasterTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC92E55152376D4000D1ED4 /* PKPasterTemplateLibrary.m */; };
 		0AE0DAA415108A9A002BD69F /* DKWaterColorPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */; };
 		0AE0DACD1510BCCE002BD69F /* DKDrawCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */; };
+		0AE6335C1528415800D25ECB /* SWPasterWonderlandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE6335A1528415800D25ECB /* SWPasterWonderlandViewController.m */; };
+		0AE6335D1528415800D25ECB /* SWPasterWonderlandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6335B1528415800D25ECB /* SWPasterWonderlandViewController.xib */; };
+		0AE6336F152842C500D25ECB /* pasterTemplate0.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63363152842C500D25ECB /* pasterTemplate0.png */; };
+		0AE63370152842C500D25ECB /* pasterTemplate1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63364152842C500D25ECB /* pasterTemplate1.png */; };
+		0AE63371152842C500D25ECB /* pasterTemplate2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63365152842C500D25ECB /* pasterTemplate2.png */; };
+		0AE63372152842C500D25ECB /* pasterTemplate3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63366152842C500D25ECB /* pasterTemplate3.png */; };
+		0AE63373152842C500D25ECB /* pasterTemplate4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63367152842C500D25ECB /* pasterTemplate4.png */; };
+		0AE63374152842C500D25ECB /* pasterTemplate5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63368152842C500D25ECB /* pasterTemplate5.png */; };
+		0AE63375152842C500D25ECB /* pasterTemplate6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE63369152842C500D25ECB /* pasterTemplate6.png */; };
+		0AE63376152842C500D25ECB /* pasterTemplate7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6336A152842C500D25ECB /* pasterTemplate7.png */; };
+		0AE63377152842C500D25ECB /* pasterTemplate8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6336B152842C500D25ECB /* pasterTemplate8.png */; };
+		0AE63378152842C500D25ECB /* pasterTemplate9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6336C152842C500D25ECB /* pasterTemplate9.png */; };
+		0AE63379152842C500D25ECB /* pasterTemplate10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6336D152842C500D25ECB /* pasterTemplate10.png */; };
+		0AE6337A152842C500D25ECB /* pasterTemplate11.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6336E152842C500D25ECB /* pasterTemplate11.png */; };
+		0AE633811528432C00D25ECB /* backgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE6337F1528432C00D25ECB /* backgroundImage.png */; };
+		0AE633821528432C00D25ECB /* returnButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AE633801528432C00D25ECB /* returnButton.png */; };
 		0AFD1E7F1519FCA400278F3C /* PKGeometryPaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */; };
 		A304F7FA15230BB4009757AE /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A304F7F915230BB4009757AE /* OpenGLES.framework */; };
-		A38698EF1521A91D0073AA94 /* controlPointRotation.png in Resources */ = {isa = PBXBuildFile; fileRef = A38698ED1521A91D0073AA94 /* controlPointRotation.png */; };
-		A38698F01521A91D0073AA94 /* controlPointScale.png in Resources */ = {isa = PBXBuildFile; fileRef = A38698EE1521A91D0073AA94 /* controlPointScale.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +73,26 @@
 		0AE0DAA315108A9A002BD69F /* DKWaterColorPen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKWaterColorPen.m; sourceTree = "<group>"; };
 		0AE0DACB1510BCCE002BD69F /* DKDrawCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKDrawCanvas.h; sourceTree = "<group>"; };
 		0AE0DACC1510BCCE002BD69F /* DKDrawCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKDrawCanvas.m; sourceTree = "<group>"; };
+		0AE633591528415800D25ECB /* SWPasterWonderlandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWPasterWonderlandViewController.h; sourceTree = "<group>"; };
+		0AE6335A1528415800D25ECB /* SWPasterWonderlandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWPasterWonderlandViewController.m; sourceTree = "<group>"; };
+		0AE6335B1528415800D25ECB /* SWPasterWonderlandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWPasterWonderlandViewController.xib; sourceTree = "<group>"; };
+		0AE63363152842C500D25ECB /* pasterTemplate0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate0.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate0.png; sourceTree = "<group>"; };
+		0AE63364152842C500D25ECB /* pasterTemplate1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate1.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate1.png; sourceTree = "<group>"; };
+		0AE63365152842C500D25ECB /* pasterTemplate2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate2.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate2.png; sourceTree = "<group>"; };
+		0AE63366152842C500D25ECB /* pasterTemplate3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate3.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate3.png; sourceTree = "<group>"; };
+		0AE63367152842C500D25ECB /* pasterTemplate4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate4.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate4.png; sourceTree = "<group>"; };
+		0AE63368152842C500D25ECB /* pasterTemplate5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate5.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate5.png; sourceTree = "<group>"; };
+		0AE63369152842C500D25ECB /* pasterTemplate6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate6.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate6.png; sourceTree = "<group>"; };
+		0AE6336A152842C500D25ECB /* pasterTemplate7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate7.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate7.png; sourceTree = "<group>"; };
+		0AE6336B152842C500D25ECB /* pasterTemplate8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate8.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate8.png; sourceTree = "<group>"; };
+		0AE6336C152842C500D25ECB /* pasterTemplate9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate9.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate9.png; sourceTree = "<group>"; };
+		0AE6336D152842C500D25ECB /* pasterTemplate10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate10.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate10.png; sourceTree = "<group>"; };
+		0AE6336E152842C500D25ECB /* pasterTemplate11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pasterTemplate11.png; path = Resources/SWPasterWonderlandView/PasterTemplates/pasterTemplate11.png; sourceTree = "<group>"; };
+		0AE6337F1528432C00D25ECB /* backgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backgroundImage.png; path = Resources/SWPasterWonderlandView/backgroundImage.png; sourceTree = "<group>"; };
+		0AE633801528432C00D25ECB /* returnButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = returnButton.png; path = Resources/SWPasterWonderlandView/returnButton.png; sourceTree = "<group>"; };
 		0AFD1E7D1519FCA400278F3C /* PKGeometryPaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryPaster.h; sourceTree = "<group>"; };
 		0AFD1E7E1519FCA400278F3C /* PKGeometryPaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPaster.m; sourceTree = "<group>"; };
 		A304F7F915230BB4009757AE /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		A38698ED1521A91D0073AA94 /* controlPointRotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointRotation.png; sourceTree = "<group>"; };
-		A38698EE1521A91D0073AA94 /* controlPointScale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controlPointScale.png; sourceTree = "<group>"; };
 		A38698FF1521F1B00073AA94 /* EnumClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnumClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,10 +142,8 @@
 		0A78D51C150F3D4B008836F3 /* Sketch */ = {
 			isa = PBXGroup;
 			children = (
-				A38698FF1521F1B00073AA94 /* EnumClass.h */,
-				A38698EC1521A8DA0073AA94 /* PictureResource */,
-				0A9908C91519F63900EA7903 /* PasterKit */,
-				0A9908CB1519F65B00EA7903 /* DrawKit */,
+				0AE633601528419D00D25ECB /* View */,
+				0AE6335F1528416600D25ECB /* Model */,
 				0A78D51D150F3D4B008836F3 /* Supporting Files */,
 			);
 			path = Sketch;
@@ -125,6 +152,7 @@
 		0A78D51D150F3D4B008836F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A38698EC1521A8DA0073AA94 /* Resources */,
 				0A78D525150F3D4B008836F3 /* AppDelegate.h */,
 				0A78D526150F3D4B008836F3 /* AppDelegate.m */,
 				0A78D51E150F3D4B008836F3 /* Sketch-Info.plist */,
@@ -170,13 +198,61 @@
 			name = DrawKit;
 			sourceTree = "<group>";
 		};
-		A38698EC1521A8DA0073AA94 /* PictureResource */ = {
+		0AE6335F1528416600D25ECB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A38698ED1521A91D0073AA94 /* controlPointRotation.png */,
-				A38698EE1521A91D0073AA94 /* controlPointScale.png */,
+				A38698FF1521F1B00073AA94 /* EnumClass.h */,
+				0A9908C91519F63900EA7903 /* PasterKit */,
+				0A9908CB1519F65B00EA7903 /* DrawKit */,
 			);
-			name = PictureResource;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0AE633601528419D00D25ECB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AE633591528415800D25ECB /* SWPasterWonderlandViewController.h */,
+				0AE6335A1528415800D25ECB /* SWPasterWonderlandViewController.m */,
+				0AE6335B1528415800D25ECB /* SWPasterWonderlandViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0AE63361152841EB00D25ECB /* SWPasterWonderlandView */ = {
+			isa = PBXGroup;
+			children = (
+				0AE6337F1528432C00D25ECB /* backgroundImage.png */,
+				0AE633801528432C00D25ECB /* returnButton.png */,
+				0AE63362152842A100D25ECB /* PasterTemplates */,
+			);
+			name = SWPasterWonderlandView;
+			sourceTree = "<group>";
+		};
+		0AE63362152842A100D25ECB /* PasterTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				0AE63363152842C500D25ECB /* pasterTemplate0.png */,
+				0AE63364152842C500D25ECB /* pasterTemplate1.png */,
+				0AE63365152842C500D25ECB /* pasterTemplate2.png */,
+				0AE63366152842C500D25ECB /* pasterTemplate3.png */,
+				0AE63367152842C500D25ECB /* pasterTemplate4.png */,
+				0AE63368152842C500D25ECB /* pasterTemplate5.png */,
+				0AE63369152842C500D25ECB /* pasterTemplate6.png */,
+				0AE6336A152842C500D25ECB /* pasterTemplate7.png */,
+				0AE6336B152842C500D25ECB /* pasterTemplate8.png */,
+				0AE6336C152842C500D25ECB /* pasterTemplate9.png */,
+				0AE6336D152842C500D25ECB /* pasterTemplate10.png */,
+				0AE6336E152842C500D25ECB /* pasterTemplate11.png */,
+			);
+			name = PasterTemplates;
+			sourceTree = "<group>";
+		};
+		A38698EC1521A8DA0073AA94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AE63361152841EB00D25ECB /* SWPasterWonderlandView */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,9 +306,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A78D521150F3D4B008836F3 /* InfoPlist.strings in Resources */,
-				A38698EF1521A91D0073AA94 /* controlPointRotation.png in Resources */,
-				A38698F01521A91D0073AA94 /* controlPointScale.png in Resources */,
 				0AC92DFD1522ED8F000D1ED4 /* DataOfPasterTemplates.plist in Resources */,
+				0AE6335D1528415800D25ECB /* SWPasterWonderlandViewController.xib in Resources */,
+				0AE6336F152842C500D25ECB /* pasterTemplate0.png in Resources */,
+				0AE63370152842C500D25ECB /* pasterTemplate1.png in Resources */,
+				0AE63371152842C500D25ECB /* pasterTemplate2.png in Resources */,
+				0AE63372152842C500D25ECB /* pasterTemplate3.png in Resources */,
+				0AE63373152842C500D25ECB /* pasterTemplate4.png in Resources */,
+				0AE63374152842C500D25ECB /* pasterTemplate5.png in Resources */,
+				0AE63375152842C500D25ECB /* pasterTemplate6.png in Resources */,
+				0AE63376152842C500D25ECB /* pasterTemplate7.png in Resources */,
+				0AE63377152842C500D25ECB /* pasterTemplate8.png in Resources */,
+				0AE63378152842C500D25ECB /* pasterTemplate9.png in Resources */,
+				0AE63379152842C500D25ECB /* pasterTemplate10.png in Resources */,
+				0AE6337A152842C500D25ECB /* pasterTemplate11.png in Resources */,
+				0AE633811528432C00D25ECB /* backgroundImage.png in Resources */,
+				0AE633821528432C00D25ECB /* returnButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +344,7 @@
 				0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */,
 				0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */,
 				0AC92E56152376D4000D1ED4 /* PKPasterTemplateLibrary.m in Sources */,
+				0AE6335C1528415800D25ECB /* SWPasterWonderlandViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,11 +12,13 @@
 @interface PKPasterTemplate : NSObject <NSCoding>{
     NSMutableArray *geoPasterTemplates;
     UIImageView *pasterView;
+    BOOL isModified;
 }
 
 -(id)initWithFileName:(NSString *)fileName GeoPasterTemplates:(NSMutableArray *)array;
 
 @property (retain, nonatomic) NSMutableArray *geoPasterTemplates;
 @property (retain, nonatomic) UIImageView *pasterView;
+@property (readwrite) BOOL isModified;
 
 @end
