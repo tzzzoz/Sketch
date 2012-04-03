@@ -13,10 +13,9 @@
 @synthesize geoPasterImageView;
 @synthesize geoPasterColor;
 @synthesize geoPasterType;
-@synthesize indexOfTemplateList;
 
 -(id)initWithGeometryPasterTemplate:(PKGeometryPasterTemplate *)geometryPasterTemplate Color:(UIColor *)color Type:(GeometryType)type
-{    
+{
     self = [super init];
     if (self && color) 
     {
@@ -57,7 +56,7 @@
     {
         self.geoPasterImageView = [aDecoder decodeObjectForKey:@"geoPasterImageView"];
         self.geoPasterColor = [aDecoder decodeObjectForKey:@"geoPasterColor"];
-        self.indexOfTemplateList = [aDecoder decodeIntForKey:@"indexOfTemplateList"];
+        self.geoPasterType = [aDecoder decodeIntForKey:@"geoPasterType"];
     }
     return self;
 }
@@ -66,6 +65,6 @@
 {
     [aCoder encodeObject:geoPasterImageView forKey:@"geoPasterImageView"];
     [aCoder encodeObject:geoPasterColor forKey:@"geoPasterColor"];
-    [aCoder encodeBool:indexOfTemplateList forKey:@"indexOfTemplateList"];
+    [aCoder encodeInt:geoPasterType forKey:@"geoPasterType"];
 }
 @end

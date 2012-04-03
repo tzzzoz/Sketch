@@ -11,6 +11,7 @@
 @implementation PKPasterTemplateLibrary
 
 @synthesize pasterTemplates;
+@synthesize pasterWorks;
 
 -(id)initWithDataOfPlist {
     self = [super init];    

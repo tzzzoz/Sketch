@@ -18,6 +18,7 @@
 		0A78D536150F5649008836F3 /* DKPen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78D535150F5649008836F3 /* DKPen.m */; };
 		0A8F86C1151DF3910078C33D /* PKGeometryImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */; };
 		0A9908C71519F62800EA7903 /* PKGeometryPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */; };
+		0AA49AE7152AEB5F009C209B /* PKPasterWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA49AE6152AEB5F009C209B /* PKPasterWork.m */; };
 		0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */; };
 		0AC92DFD1522ED8F000D1ED4 /* DataOfPasterTemplates.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */; };
 		0AC92E56152376D4000D1ED4 /* PKPasterTemplateLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC92E55152376D4000D1ED4 /* PKPasterTemplateLibrary.m */; };
@@ -64,6 +65,8 @@
 		0A8F86C0151DF3910078C33D /* PKGeometryImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryImageView.m; sourceTree = "<group>"; };
 		0A9908C51519F62800EA7903 /* PKGeometryPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKGeometryPasterTemplate.h; sourceTree = "<group>"; };
 		0A9908C61519F62800EA7903 /* PKGeometryPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKGeometryPasterTemplate.m; sourceTree = "<group>"; };
+		0AA49AE5152AEB5E009C209B /* PKPasterWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterWork.h; sourceTree = "<group>"; };
+		0AA49AE6152AEB5F009C209B /* PKPasterWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterWork.m; sourceTree = "<group>"; };
 		0ABC5E3315219EDD0060134E /* PKPasterTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPasterTemplate.h; sourceTree = "<group>"; };
 		0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPasterTemplate.m; sourceTree = "<group>"; };
 		0AC92DFC1522ED8F000D1ED4 /* DataOfPasterTemplates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DataOfPasterTemplates.plist; sourceTree = "<group>"; };
@@ -179,6 +182,8 @@
 				0ABC5E3415219EDD0060134E /* PKPasterTemplate.m */,
 				0AC92E54152376D4000D1ED4 /* PKPasterTemplateLibrary.h */,
 				0AC92E55152376D4000D1ED4 /* PKPasterTemplateLibrary.m */,
+				0AA49AE5152AEB5E009C209B /* PKPasterWork.h */,
+				0AA49AE6152AEB5F009C209B /* PKPasterWork.m */,
 			);
 			name = PasterKit;
 			sourceTree = "<group>";
@@ -345,6 +350,7 @@
 				0ABC5E3515219EDD0060134E /* PKPasterTemplate.m in Sources */,
 				0AC92E56152376D4000D1ED4 /* PKPasterTemplateLibrary.m in Sources */,
 				0AE6335C1528415800D25ECB /* SWPasterWonderlandViewController.m in Sources */,
+				0AA49AE7152AEB5F009C209B /* PKPasterWork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sketch/Sketch-Prefix.pch";
 				INFOPLIST_FILE = "Sketch/Sketch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -428,7 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sketch/Sketch-Prefix.pch";
 				INFOPLIST_FILE = "Sketch/Sketch-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;

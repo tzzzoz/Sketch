@@ -11,10 +11,12 @@
 
 @interface PKPasterTemplateLibrary : NSObject {
     NSMutableArray *pasterTemplates;
+    NSMutableArray *pasterWorks;
 }
 
 -(id)initWithDataOfPlist;
 
 @property (retain, nonatomic) NSMutableArray *pasterTemplates;
+@property (retain, nonatomic) NSMutableArray *pasterWorks;
 
 @end

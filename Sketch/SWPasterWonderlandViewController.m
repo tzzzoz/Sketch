@@ -24,12 +24,17 @@
 @synthesize pasterTemplate11;
 @synthesize returnButton;
 
+@synthesize array;
+
 @synthesize pasterTemplateLibrary;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        [array addObject:pasterTemplate0];
+        [array addObject:pasterTemplate1];
+
         pasterTemplateLibrary = [[PKPasterTemplateLibrary alloc] initWithDataOfPlist];
         for (PKPasterTemplate *pasterTemplate in pasterTemplateLibrary.pasterTemplates) {
             if (pasterTemplate.isModified) {
